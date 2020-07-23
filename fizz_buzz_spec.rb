@@ -10,5 +10,5 @@ describe 'FizzBuzz' do
   it { expect(fizz_buzz(15)).to eq('fizzbuzz') }
   it { expect(fizz_buzz(13)).to eq('fizz') }
   it { expect(fizz_buzz(23)).to eq('fizz') }
-  it { expect(fizz_buzz(51)).to eq('buzz') }
+  it { expect(fizz_buzz(52)).to eq('buzz') }
 end
