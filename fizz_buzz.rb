@@ -1,9 +1,9 @@
 def fizz_buzz(num)
-  return 'buzz' if (num % 5 == 0)
+  resultat = ''
+  resultat << 'fizz' if (num % 3 == 0)
+  resultat << 'buzz' if (num % 5 == 0)
 
-  return 'fizz' if (num % 3 == 0)
-
-  num
+  resultat == '' ? num : resultat
 end
 
 def affiche_fizz_buzz
